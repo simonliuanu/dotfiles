@@ -14,8 +14,9 @@ local options = {
 	completeopt = { "menuone", "noselect" },
 	updatetime = 300,
 	fileencoding = "utf-8",
-	guifont = "JetbrainsMono Nerd Font:h20"
---	termguicolors = true,
+	-- showtabline = 2,
+	-- termguicolors = true,
+	guifont = "FantasqueSansMono Nerd Font:h20",
 }
 
 for k, v in pairs(options) do
