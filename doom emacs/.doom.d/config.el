@@ -19,8 +19,8 @@
 ;;
 ;; They all accept either a font-spec, font string ("Input Mono-12"), or xlfd
 ;; font string. You generally only need these two:
-;; (setq doom-font (font-spec :family "monospace" :size 12 :weight 'semi-light)
-;;       doom-variable-pitch-font (font-spec :family "sans" :size 13))
+(setq doom-font (font-spec :family "FantasqueSansMono Nerd Font" :size 25 :weight 'Bold)
+      doom-variable-pitch-font (font-spec :family "FantasqueSansMono Nerd Font" :size 25))
 
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
@@ -52,11 +52,13 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
-;;
-;; emacs frame size settings
+
 (setq initial-frame-alist
       (append initial-frame-alist
-              '((left   . 20)
-                (top    . 20)
-                (width  . 150 )
-                (height . 80))))
+              '((left   . 200)
+                (top    . 200)
+                (width  . 150)
+                (height . 60))))
+
+(setq doom-themes-treemacs-theme "doom-colors")
+(setq all-the-icons-dired-monochrome nil)
