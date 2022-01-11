@@ -52,4 +52,18 @@ return require('packer').startup(function()
 	-- Bufferline
 	use 'akinsho/bufferline.nvim'
 
+	-- Markdown preview
+	use 'iamcco/markdown-preview.nvim'
+
+	-- Lsp
+	use 'neovim/nvim-lspconfig'
+	use 'williamboman/nvim-lsp-installer'
+
+	-- Completion
+	use 'hrsh7th/cmp-nvim-lsp'
+	use 'hrsh7th/cmp-buffer'
+	use 'hrsh7th/cmp-path'
+	use 'hrsh7th/cmp-cmdline'
+	use 'hrsh7th/nvim-cmp'
+
 end)
