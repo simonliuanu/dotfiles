@@ -119,6 +119,8 @@ export PATH="$HOME/.local/bin:$PATH"
 export TERM=xterm-256color
 # gem path
 export PATH="$HOME/.local/share/gem/ruby/3.0.0/bin:$PATH"
+# jdtls launcher path
+export PATH=$PATH:$HOME/.local/bin
 
 export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 
