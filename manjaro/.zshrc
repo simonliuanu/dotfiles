@@ -107,6 +107,18 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# zsh-autocomplete configuration
+zstyle ':autocomplete:*' widget-style menu-select
+zmodload zsh/complist
+bindkey -M menuselect 'h' vi-backward-char
+bindkey -M menuselect 'k' vi-up-line-or-history
+bindkey -M menuselect 'l' vi-forward-char
+bindkey -M menuselect 'j' vi-down-line-or-history
+
+# neofetch
+# pfetch
+# freshfetch
+
 # Neovim alias
 alias vim="nvim"
 
