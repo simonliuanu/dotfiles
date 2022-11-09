@@ -75,4 +75,4 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 ;; (add-to-list 'initial-frame-alist '(fullscreen . maximized))
-(setq initial-frame-alist '((top . 100) (left . 500) (width . 150) (height . 52)))
+(setq initial-frame-alist '((top . 100) (left . 500) (width . 160) (height . 52)))
