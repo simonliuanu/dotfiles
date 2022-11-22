@@ -27,3 +27,7 @@ indent_style = space
 [*.html]
 indent_size = 2
 indent_style = space
+
+[*.css]
+indent_size = 2
+indent_style = space
