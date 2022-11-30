@@ -586,3 +586,5 @@ bindsym $mod+t exec rofi -show window \
 
 
 exec --no-startup-id setxkbmap -option "ctrl:nocaps"
+
+exec --no-startup-id fcitx5 -d
