@@ -1,12 +1,10 @@
 set number
 set relativenumber
 set scrolloff=5
-set wrap
-""set cursorcolumn
-set cursorline
 set hlsearch
 set incsearch
 set ignorecase
+set visualbell
 
 let mapleader = " "
 
@@ -18,3 +16,7 @@ nnoremap <leader>e :NERDTreeToggle<CR>
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <S-h> gT
 nnoremap <S-l> gt
+nnoremap <c-h> <c-w>h
+nnoremap <c-l> <c-w>l
+nnoremap <c-j> <c-w>j
+nnoremap <c-k> <c-w>k
