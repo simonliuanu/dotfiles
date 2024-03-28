@@ -4,7 +4,10 @@ set scrolloff=5
 set hlsearch
 set incsearch
 set ignorecase
+set smartcase
 set visualbell
+
+set sneak
 
 let mapleader = " "
 
