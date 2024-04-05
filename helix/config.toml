@@ -1,6 +1,7 @@
 theme = "kanagawa"
 
 [editor]
+color-modes = true
 true-color = true
 line-number = "relative"
 
