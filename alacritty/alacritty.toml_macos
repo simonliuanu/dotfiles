@@ -22,4 +22,4 @@ style = "Regular"
 position = { x = 700, y = 300 }
 dimensions = { columns = 85, lines = 30 }
 decorations = "buttonless"
-opacity = 0.75
+opacity = 0.65
