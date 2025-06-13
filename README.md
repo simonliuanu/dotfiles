@@ -1,3 +1,3 @@
 # dotfiles
 
-my Linux dotfiles
+my Linux/macOS dotfiles
