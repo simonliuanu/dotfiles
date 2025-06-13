@@ -135,6 +135,8 @@ if [ -f /usr/share/autojump/autojump.zsh ]; then
   source /usr/share/autojump/autojump.zsh
 
 fi
+# fzf
+source ~/.config/zsh/fzf.zsh
 # alias
 alias 'vim'='nvim'
 
