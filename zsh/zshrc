@@ -139,6 +139,8 @@ fi
 source ~/.config/zsh/fzf.zsh
 # alias
 alias 'vim'='nvim'
+alias 'lg'='lazygit'
+alias 'yz'='yazi'
 
 export EDITOR=nvim
 
