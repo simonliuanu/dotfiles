@@ -1,0 +1,3 @@
+# export
+
+export EDITOR='nvim'

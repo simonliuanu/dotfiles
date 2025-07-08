@@ -1,0 +1,2 @@
+# fzf
+source <(fzf --zsh)
