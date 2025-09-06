@@ -12,19 +12,19 @@ size = 16.0
 
 # family = "FantasqueSansM Nerd Font Mono"
 [font.bold]
-family = "Maple Mono NF"
+family = "CaskaydiaMono Nerd Font Mono"
 style = "Bold"
 
 [font.bold_italic]
-family = "Maple Mono NF"
+family = "CaskaydiaMono Nerd Font Mono"
 style = "Bold Italic"
 
 [font.italic]
-family = "Maple Mono NF"
+family = "CaskaydiaMono Nerd Font Mono"
 style = "Italic"
 
 [font.normal]
-family = "Maple Mono NF"
+family = "CaskaydiaMono Nerd Font Mono"
 style = "Regular"
 
 [window]
