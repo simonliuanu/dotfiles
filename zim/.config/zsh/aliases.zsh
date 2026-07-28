@@ -1,4 +1,4 @@
-# alias
+# Interactive aliases.
 alias 'vim'='nvim'
 alias 'v'='nvim'
 alias 'lg'='lazygit'
@@ -12,7 +12,7 @@ alias 'gc'='git commit'
 alias 'ga'='git add'
 alias 'gl'='git log'
 alias 't'='tmux'
-alias 'tl'='tmux list'
+alias 'tl'='tmux list-sessions'
 alias 'ta'='tmux attach'
-alias 'tk'='tmux kill-ses'
+alias 'tk'='tmux kill-session'
 alias 'ff'='fastfetch'
