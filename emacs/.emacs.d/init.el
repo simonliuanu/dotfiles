@@ -17,6 +17,7 @@
 (when (fboundp 'scroll-bar-mode)
   (scroll-bar-mode -1))
 (column-number-mode 1)
+(setq display-line-numbers-type 'relative)
 (global-display-line-numbers-mode 1)
 (global-hl-line-mode 1)
 (electric-pair-mode 1)
@@ -25,7 +26,9 @@
 ;; Editing defaults.
 (setq-default indent-tabs-mode nil
               tab-width 4
+              tab-always-indent nil
               fill-column 80)
+(setq c-basic-offset 4)
 (setq inhibit-startup-screen t
       ring-bell-function #'ignore
       use-short-answers t
@@ -34,6 +37,7 @@
       `(("." . ,(locate-user-emacs-file "backups/")))
       auto-save-file-name-transforms
       `((".*" ,(locate-user-emacs-file "auto-save/") t)))
+(setq initial-scratch-message nil)
 
 ;; macOS key bindings: Command is Meta and Option enters special characters.
 (when (eq system-type 'darwin)
